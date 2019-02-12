@@ -1,18 +1,9 @@
-# ownCloud-Phoenix
+# ownCloud-Phoenix classic
 
-Pushing a new design and frontend concept to ownCloud
-
-![bildschirmfoto von 2018-03-14 17-28-06](https://user-images.githubusercontent.com/1005065/37416039-20817b4c-27ad-11e8-9f14-cbe12936fd64.png)
-![bildschirmfoto von 2018-03-14 17-27-40](https://user-images.githubusercontent.com/1005065/37416040-20ad906a-27ad-11e8-8a56-ad5f824743a0.png)
-
-
-
-[See this online Demo](http://wp12578177.server-he.de)
 
 ## How to build
 
-Run `make`
-
-## Run
-
-Run a PHP test server `make run SERVER_HOST=0.0.0.0:8300`
+1. Clone uikit in the /core folder
+2. Run `make`
+3. Run testserver `php -S localhost:5683` and open in broser
+4. enjoy

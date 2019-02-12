@@ -38,11 +38,7 @@ clean-uikit:
 #
 .PHONY: app-%
 app-%:
-	$(MAKE) -C apps/$*
-
-.PHONY: clean-app-%
-clean-app-%:
-	$(MAKE) -C apps/$* clean
+	cd apps/$* && npm install && npm run build
 
 #
 # Test server
