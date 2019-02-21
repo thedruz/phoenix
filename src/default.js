@@ -10,6 +10,10 @@ import Phoenix from './Phoenix.vue'
 // --- Adding global libraries ---
 
 import Vuetify from 'vuetify'
+//$global-link-color: #1d2d44;
+
+require('./variables-theme.scss')
+import UIkit from 'uikit';
 import Client from 'js-owncloud-client'
 
 import { sync } from 'vuex-router-sync'
